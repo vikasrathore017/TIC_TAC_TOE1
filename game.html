@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac TOE</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    
+
+
+
+    <div id="main">
+        <h1>TIC TAC TOE</h1>
+   
+        <!-- Game Instructions -->
+        <p id="ins">Game starts by just Tap on 
+            box<br><br>First Player starts as 
+            <b>Player 1</b><br>And<br>Second 
+            Player as <b>Player 2</b>
+        </p>
+ 
+  
+   
+   
+        <br><br>
+        <!-- 3*3 grid of Boxes -->
+        <input type="text" id="b1" onclick=
+            "mySide_3(); mySide();" readonly>
+   
+        <input type="text" id="b2" onclick=
+            "mySide_4(); mySide();" readonly>
+   
+        <input type="text" id="b3" onclick=
+            "mySide_5(); mySide();" readonly>
+        <br><br>
+   
+        <input type="text" id="b4" onclick=
+            "mySide_6(); mySide();" readonly>
+               
+        <input type="text" id="b5" onclick=
+            "mySide_7(); mySide();" readonly>
+   
+        <input type="text" id="b6" onclick=
+            "mySide_8(); mySide();" readonly>
+        <br><br>
+   
+        <input type="text" id="b7" onclick=
+            "mySide_9(); mySide();" readonly>
+   
+        <input type="text" id="b8" onclick=
+            "mySide_10();mySide();" readonly>
+   
+        <input type="text" id="b9" onclick=
+            "mySide_11();mySide();" readonly>
+   
+        <!-- Grid end here  -->
+        <br><br><br>
+        <!-- Button to reset game -->
+        <button id="btn" onclick="mySide_2()">
+            RESET
+        </button>
+   
+        <br><br>
+        <!-- Space to show player turn -->
+        <p id="print"></p>
+ 
+  
+   
+   
+    </div>
+
+
+
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
